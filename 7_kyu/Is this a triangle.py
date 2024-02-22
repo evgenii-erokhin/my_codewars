@@ -16,13 +16,10 @@
 def is_triangle(a: int, b: int, c: int) -> bool:
     """Determine if three sides of given lengths can form a triangle.
 
-        Args:
-            a (int): First side length
-            b (int): Second side length
-            c (int): Third side lenght
-
-        Returns:
-            bool: True if the three sides given can form a triangle.
+        :param a: First side length
+        :param b: Second side length
+        :param c: Third side lenght
+        return: True if the three sides given can form a triangle.
     """
     return True if a + b > c and a + c > b and b + c > a else False
 
