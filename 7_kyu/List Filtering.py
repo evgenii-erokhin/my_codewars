@@ -7,7 +7,7 @@
 # filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 
 def filter_list(lst: list) -> list:
-    """Сreate a list of numbers
+    """Сreate a list of numbers.
 
     :param lst: The list consists of different types of data
     :return: The list is made up of integer instance only
